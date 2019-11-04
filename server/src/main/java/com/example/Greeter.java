@@ -11,9 +11,8 @@ public class Greeter {
   public Greeter() {
 
   }
-  /**
-   * This method is used to greet the user using a final String as a parameter
-   * Then returns "Hello" with that String following
+  /** This method is used to greet the user using a final String as a parameter.
+   * Then returns "Hello" with that String following.
    * @param someone
    * @return
    */
