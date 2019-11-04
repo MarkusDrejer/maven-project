@@ -11,8 +11,12 @@ public class Greeter {
   public Greeter() {
 
   }
-
-  //TODO: Add javadoc comment
+  /**
+   * This method is used to greet the user using a final String as a parameter
+   * Then returns "Hello" with that String following
+   * @param someone
+   * @return
+   */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
